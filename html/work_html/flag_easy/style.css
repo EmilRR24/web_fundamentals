@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    height: 235px;
+    display: flex;
+}
+
+#block {
+    background-color: green;
+    flex: 1;
+}
+#block2 {
+    background-color: white;
+    flex: 1;
+}
+#block3 {
+    background-color: red;
+    flex: 1;
+}

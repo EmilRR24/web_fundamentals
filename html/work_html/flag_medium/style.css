@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 400px;
+    height: 240px;
+}
+.top, .bottom {
+    height: 50%;
+    display: flex;
+}
+.left {
+    flex: 1;
+    background-color: red;
+    margin: 10px;
+}
+.right {
+    flex: 2;
+    background-color: red;
+    margin: 10px;
+}
