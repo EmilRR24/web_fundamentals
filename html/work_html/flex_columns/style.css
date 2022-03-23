@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    display: flex;
+}
+.col {
+    background-color: aqua;
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.col-2 {
+    background-color: aqua;
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.col-3 {
+    background-color: aqua;
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}

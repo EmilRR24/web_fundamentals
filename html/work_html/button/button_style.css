@@ -1,0 +1,26 @@
+#search {
+    color: teal;
+    border-color: teal;
+    border-radius: 10px;
+    width: 100px;
+    margin: 10px;
+}
+#round {
+    color: white;
+    background-color: teal;
+    border-radius: 50%;
+    border: 0px solid teal;
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+}
+#account {
+    background-color:rgb(55, 128, 246);
+    color: white;
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+}
