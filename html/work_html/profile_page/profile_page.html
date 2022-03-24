@@ -10,105 +10,106 @@
 </head>
 
 <body>
-    <div class="nav">
-        <h2 class="nav-title">Profile</h2>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#" class="active">My Profile</a></li>
-            <li><a href="#">Find Connections</a></li>
-            <li><button class="btn">Sign Out</button></li>
-        </ul>
-    </div>
     <div class="container">
-        <div class="main">
-            <div class="card">
-                <div class="header-card"></div>
-                <div class="user-card">
-                    <div id="circle"></div>
-                    <img src="./profiles/user-circle.png" alt="user-circle" id="user-circle">
-                    <h1>Emil Ramirez</h1>
-                    <div class="location-card">
-                        <img src="./profiles/map-marker.png" alt="map-marker" id="marker">
-                        <h2>Honolulu, Hawaii</h2>
-                    </div>
-                    <div class="main-card">
-                        <h3>Developer | Engineer | Problem Solver</h3>
-                        <h3>Master of shadows and the Internet!</h3>
-                    </div>
-                    <div class="bottom-card">
-                        <img src="./profiles/gear.png" alt="gear" id="gear">
-                        <a href="">edit profile</a>
-                    </div>
-                </div>
-            </div>
-            <div class="education">
-                <div class="heading-color">
-                    <h2 class="heading">Education</h2>
-                </div>
-                <div class="text">
-                    <h3>Coding Doho - Full Stack Bootcamp</h3>
-                    <h4>Dec 2019 - Mar 2020</h4>
-                    <p>Triple black belt in python, MERN, and C#...</p>
-                </div>
-            </div>
+        <div class="nav">
+            <h2 class="nav-title">Profile</h2>
+            <ul class="nav-links">
+                <li><a href="#" class="view">Home</a></li>
+                <li><a href="#" class="active, view">My Profile</a></li>
+                <li><a href="#" class="view">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
         </div>
-        <div class="connections">
-            <div class="requests">
-                <div class="requests-head">
-                    <h4 class="num">2</h4>
-                    <h2 class="heading">Connection Requests</h2>
-                </div>
-                <div class="current-main">
-                    <div class="profile-request">
-                        <div class="profile-connections">
-                            <img src="./images/phil-s.jpg" alt="phil">
-                            <h3>Phil S</h3>
+        <div class="page-body">
+            <div class="main">
+                <div class="card">
+                    <div class="header-card"></div>
+                    <div class="user-card">
+                        <div id="circle"></div>
+                        <img src="./profiles/user-circle.png" alt="user-circle" id="user-circle">
+                        <h1>Emil Ramirez</h1>
+                        <div class="location-card">
+                            <img src="./profiles/map-marker.png" alt="map-marker" id="marker">
+                            <h2>Honolulu, Hawaii</h2>
                         </div>
-                        <div class="buttons">
-                            <img src="./profiles/accept-circle.png" alt="check" class="check">
-                            <img src="./profiles/close-circle.png" alt="close" class="close">
+                        <div class="main-card">
+                            <h3>Developer | Engineer | Problem Solver</h3>
+                            <h3>Master of shadows and the Internet!</h3>
+                        </div>
+                        <div class="bottom-card">
+                            <img src="./profiles/gear.png" alt="gear" id="gear">
+                            <a href="">edit profile</a>
                         </div>
                     </div>
-                    <div class="profile-request">
-                        <div class="profile-connections">
-
-                            <img src="./images/todd-s.jpg" alt="todd">
-                            <h3>Todd S</h3>
-                        </div>
-                        <div class="buttons">
-                            <img src="./profiles/accept-circle.png" alt="check" class="check">
-                            <img src="./profiles/close-circle.png" alt="close" class="close">
-                        </div>
+                </div>
+                <div class="education">
+                    <div class="heading-color">
+                        <h2 class="heading">Education</h2>
+                    </div>
+                    <div class="text">
+                        <h3>Coding Doho - Full Stack Bootcamp</h3>
+                        <h4>Dec 2019 - Mar 2020</h4>
+                        <p>Triple black belt in python, MERN, and C#...</p>
                     </div>
                 </div>
             </div>
-            <div class="current">
-                <div class="current-top">
-                    <div class="current-head">
-                        <h4 class="num2">500+</h4>
-                        <h2 class="heading">Your Connections</h2>
+            <div class="connections">
+                <div class="requests">
+                    <div class="requests-head">
+                        <h4 class="num">2</h4>
+                        <h2 class="heading">Connection Requests</h2>
                     </div>
                     <div class="current-main">
-                        <div class="profile-connections">
-                            <img src="./images/adrien-s.jpg" alt="adrien">
-                            <h3>Adrien S</h3>
+                        <div class="profile-request">
+                            <div class="profile-connections">
+                                <img src="./images/phil-s.jpg" alt="phil">
+                                <h3>Phil S</h3>
+                            </div>
+                            <div class="buttons">
+                                <img src="./profiles/accept-circle.png" alt="check" class="check">
+                                <img src="./profiles/close-circle.png" alt="close" class="close">
+                            </div>
                         </div>
-                        <div class="profile-connections">
-                            <img src="./images/anne-s.jpg" alt="anne">
-                            <h3>Anne J</h3>
-                        </div>
-                        <div class="profile-connections">
-                            <img src="./images/alayne-s.jpg" alt="alayne">
-                            <h3>Alayne T</h3>
-                        </div>
-                        <div class="profile-connections">
-                            <img src="./images/arry-s.jpg" alt="arry">
-                            <h3>Arry Y</h3>
+                        <div class="profile-request">
+                            <div class="profile-connections">
+                                <img src="./images/todd-s.jpg" alt="todd">
+                                <h3>Todd S</h3>
+                            </div>
+                            <div class="buttons">
+                                <img src="./profiles/accept-circle.png" alt="check" class="check">
+                                <img src="./profiles/close-circle.png" alt="close" class="close">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="current-bottom">
-                    <a href="" class="view-more">View More</a>
+                <div class="current">
+                    <div class="current-top">
+                        <div class="current-head">
+                            <h4 class="num2">500+</h4>
+                            <h2 class="heading">Your Connections</h2>
+                        </div>
+                        <div class="current-main">
+                            <div class="profile-connections">
+                                <img src="./images/adrien-s.jpg" alt="adrien">
+                                <h3>Adrien S</h3>
+                            </div>
+                            <div class="profile-connections">
+                                <img src="./images/anne-s.jpg" alt="anne">
+                                <h3>Anne J</h3>
+                            </div>
+                            <div class="profile-connections">
+                                <img src="./images/alayne-s.jpg" alt="alayne">
+                                <h3>Alayne T</h3>
+                            </div>
+                            <div class="profile-connections">
+                                <img src="./images/arry-s.jpg" alt="arry">
+                                <h3>Arry Y</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="current-bottom">
+                        <a href="" class="view-more">View More</a>
+                    </div>
                 </div>
             </div>
         </div>
