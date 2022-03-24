@@ -3,6 +3,10 @@
     padding: 0;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
 .container, .location-card, .bottom-card{
     display: flex;
     justify-content: center;
@@ -12,7 +16,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     margin: 10px;
 }
 .education{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .header-card{
     height: 100px;
@@ -164,4 +168,36 @@ img{
 }
 .view-more{
     font-size: 20px;
+}
+button {
+    border: 2px solid black;
+    background-color: rgb(87, 175, 246);
+    color: white;
+    padding: 3px 8px;
+    box-shadow: 2px 2px 2px black;
+}
+.active {
+    color: white;
+}
+.nav {
+    display: flex;
+    background-color: rgb(41, 39, 39);
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-title {
+    color: white;
+    margin-left: 10px;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.794);
 }
