@@ -4,7 +4,7 @@
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .container{
-    width: 1200px;
+    width: auto;
     margin: 0 auto;
 }
 .page-body, .location-card, .bottom-card{
@@ -27,7 +27,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     border-bottom: 5px solid lightgrey;
     border-left: 5px solid lightgrey;
     border-right: 5px solid lightgrey;
-    height: 310px;
+    height: 265px;
 }
 #user-circle{
     width: 100px;
@@ -100,7 +100,7 @@ h1{
     border-bottom: 5px solid lightgrey;
 }
 h3{
-    font-size: 25px;
+    font-size: 19px;
 }
 h4{
     color: grey;
@@ -145,6 +145,9 @@ p{
     width: 450px;
     margin: 0 10px;
 }
+.page-body{
+    padding-top: 40px;
+}
 .profile-request, .profile-connections{
     width: 100%;
     display: flex;
@@ -169,28 +172,33 @@ img{
 .view-more{
     font-size: 20px;
 }
-button {
+button{
     border: 2px solid black;
     background-color: rgb(87, 175, 246);
     color: white;
     padding: 3px 8px;
     box-shadow: 2px 2px 2px black;
+    margin: 0 20px 0 50px;
 }
-.active {
+.active{
     color: white;
 }
-.nav {
+.nav, .nav-buttons{
     display: flex;
-    background-color: rgb(41, 39, 39);
+    background-color: rgb(19, 19, 19);
     padding: 10px;
-    justify-content: space-evenly;
+    gap: 15px;
+    justify-content: center;
     align-items: center;
+}
+.nav{
+    gap: 400px;
 }
 .nav-title {
     color: white;
     margin-left: 10px;
 }
-.nav-links {
+.nav-links{
     display: flex;
     list-style: none;
     align-items: center;
