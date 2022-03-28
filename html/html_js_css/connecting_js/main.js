@@ -42,3 +42,23 @@ function liteMode(){
 
 // 1. Event Listener -- HTML
 // 2. Event Handler Function -- Javscript
+
+// Method -- Query Selector
+var likes = 13
+function likeHandler(){
+    console.log("LIKE HANDLER")
+    // Increment likes 
+    likes++
+    // Targeting the button using Query Selector
+    var likesButton = document.querySelector(".likes")
+    likesButton.innerText = likes + " like(s)"
+}
+
+var likes2 = 44
+// Method -- this
+function likeHandler2(element){
+    // increment likes
+    likes2++
+    // Element represents the button
+    element.innerText = likes2 + " Like(s)"
+}
