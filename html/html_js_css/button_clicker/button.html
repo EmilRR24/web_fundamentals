@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="nav">
+            <h1>Dojonary</h1>
+            <textarea name="search" cols="30" rows="1">Search</textarea>
+            <button class="login" onclick="logout(this)">Login</button>
+        </div>
+        <div class="main">
+            <div class="left">
+                <div class="leftTop">
+                    <div class="leftColumn">
+                        <h2>ninja</h2>
+                        <h4>noun</h4>
+                        <h5>Plural :ninjas</h5>
+                        <button class="likes" onclick="like()">13 likes</button>
+                    </div>
+                    <p>A practitioner skilled in the <a href="https://www.merriam-webster.com/dictionary/Japanese">Japanese</a> art of <a href="https://www.merriam-webster.com/dictionary/ninjutsu">ninjutsu</a></p>
+                </div>
+                <div class="leftBottom">
+                    <div class="leftColumn">
+                        <h2>ninja</h2>
+                        <h4>noun</h4>
+                        <h5>Plural :ninjas</h5>
+                        <button class="likes" onclick="like()">37 likes</button>
+                    </div>
+                    <p>A <a href="https://www.merriam-webster.com/dictionary/programmer">programmer</a> who breaks down problems with <a href="https://www.merriam-webster.com/dictionary/Zen">zen</a>-like focus</p>
+                </div>
+            </div>
+            <div class="right">
+                <h4>Dojonary is defined by <span>YOU</span></h4>
+                <div class="button">
+                    <button class="definition" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

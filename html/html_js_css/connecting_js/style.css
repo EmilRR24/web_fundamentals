@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+#container{
+    background-color: wheat;
+    width: auto;
+    min-height: 200px;
+}
