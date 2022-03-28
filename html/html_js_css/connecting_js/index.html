@@ -9,9 +9,24 @@
 </head>
 <body>
     <div id="container">
-        <h1>Hello World</h1>
+        <!-- <h1 onmouseover="alert('Mouse Entered H1')">Hello World</h1> -->
+        <!-- on... Event listener -->
+        <!-- <button onclick="console.log('REGISTER BUTTON HAS BEEN PRESSED')">Register</button> -->
+        <!-- <button onclick="console.log('LOGIN BUTTON HAS BEEN PRESSED')">Login</button> -->
+        <!-- replace above with JS code -->
+        <h1 onmouseover="mouseOverHandler(this)">Hello World</h1>
+        <button onclick="clickHandler(this)">Register</button>
+        <button onclick="clickHandler(this)">Login</button>
+        <div>
+            <button onclick="darkMode()">Dark Mode</button>
+            <button onclick="liteMode()">Lite Mode</button>
+        </div>
+
     </div>
     <!-- LINK JS - must come all the way at the end right before the body closes -->
     <script src="./main.js"></script>
 </body>
-</html>
+</html>/
+<!-- Document Object Model
+    HTML translated to a JS object
+    which allows JS to change HTML -->
