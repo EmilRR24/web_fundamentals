@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.alert{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    background-color: lightgrey;
+    height: 100px;
+    width: 700px;
+    gap: 25px;
+    padding: 0 25px;
+    position: fixed;
+    bottom: 10px;
+    left: 350px;
+}
+.text{
+    width: 400px;
+}
+.alert > button{
+    background-color: lightskyblue;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    height: 30px;
+    width: 80px;
+    font-size: large;
+    font-weight: bold;
+}
+.navBar{
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 350px;
+}
+.cities{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.page{
+    padding: 0 350px;
+}
+.headerBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+.temperature{
+    display: flex;
+    gap: 10px;
+}
+.mainPage{
+    display: flex;
+    margin-top: 15px;
+    gap: 15px
+    ;
+}
+.col > img {
+    width: 138px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.col{
+    text-align: center;
+    background-color: lightgrey;
+    height: 280px;
+}
+.num{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+select{
+    text-align: center;
+}
+.fer, .fer-2, .fer-3, .fer-4{
+    color: red;
+}
+.cel, .cel-2, .cel-3, .cel-4{
+    color: blue;
+}

@@ -29,7 +29,7 @@
                     <div class="user-card">
                         <div id="circle"></div>
                         <img src="./profiles/user-circle.png" alt="user-circle" id="user-circle">
-                        <h1>Emil Ramirez</h1>
+                        <h1 id="userName">Jane Doe</h1>
                         <div class="location-card">
                             <img src="./profiles/map-marker.png" alt="map-marker" id="marker">
                             <h2>Honolulu, Hawaii</h2>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="bottom-card">
                             <img src="./profiles/gear.png" alt="gear" id="gear">
-                            <a href="">edit profile</a>
+                            <p id="mainProfile" onclick="profile()">edit profile</p>
                         </div>
                     </div>
                 </div>
@@ -62,24 +62,24 @@
                         <h2 class="heading">Connection Requests</h2>
                     </div>
                     <div class="current-main">
-                        <div class="profile-request">
+                        <div class="profile-request" id="phil-s">
                             <div class="profile-connections">
                                 <img src="./images/phil-s.jpg" alt="phil">
                                 <h3>Phil S</h3>
                             </div>
                             <div class="buttons">
-                                <img src="./profiles/accept-circle.png" alt="check" class="check">
-                                <img src="./profiles/close-circle.png" alt="close" class="close">
+                                <img src="./profiles/accept-circle.png" alt="check" class="check" onclick="acceptPhil()" >
+                                <img src="./profiles/close-circle.png" alt="close" class="close" onclick="requestsPhil()" >
                             </div>
                         </div>
-                        <div class="profile-request">
+                        <div class="profile-request" id="todd-s">
                             <div class="profile-connections">
                                 <img src="./images/todd-s.jpg" alt="todd">
                                 <h3>Todd S</h3>
                             </div>
                             <div class="buttons">
-                                <img src="./profiles/accept-circle.png" alt="check" class="check">
-                                <img src="./profiles/close-circle.png" alt="close" class="close">
+                                <img src="./profiles/accept-circle.png" alt="check" class="check" onclick="acceptTodd()" >
+                                <img src="./profiles/close-circle.png" alt="close" class="close" onclick="requestsTodd()" >
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                 <div class="current">
                     <div class="current-top">
                         <div class="current-head">
-                            <h4 class="num2">500+</h4>
+                            <h4 class="num2" id="connections">418</h4>
                             <h2 class="heading">Your Connections</h2>
                         </div>
                         <div class="current-main">
@@ -110,13 +110,13 @@
                         </div>
                     </div>
                     <div class="current-bottom">
-                        <a href="" class="view-more">View More</a>
+                        <a href="#" class="view-more">View More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <script src="./main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="alert">
+            <img src="./images/cookie.png" alt="cookie">
+            <div class="text">
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads to, to provide social media
+                    features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="cookies()">I Accept</button>
+        </div>
+        <div class="navBar">
+            <h1>DojoWeather</h1>
+            <div class="cities">
+                <h4 onclick="alert('Weather report loading...')">Burbank</h4>
+                <h4 onclick="alert('Weather report loading...')">Chicago</h4>
+                <h4 onclick="alert('Weather report loading...')">Dallas</h4>
+            </div>
+        </div>
+        <div class="page">
+            <div class="headerBar">
+                <h2>San Jose</h2>
+                <div class="temperature">
+                    <p>show temperature in</p>
+                    <select name="temp" id="temp" onchange="getOption()">
+                        <option value="">Both</option>
+                        <option value="°F">°F</option>
+                        <option value="°C">°C</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mainPage">
+                <div class="col">
+                    <h3>Today</h3>
+                    <img src="./images/some_rain.png" alt="rain">
+                    <p>some rain</p>
+                    <div class="num">
+                        <h4 class="fer">75°F</h4>
+                        <h4 class="cel">65°C</h4>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Tomorrow</h3>
+                    <img src="./images/some_sun.png" alt="sunny">
+                    <p>some sun</p>
+                    <div class="num">
+                        <h4 class="fer-2">80°F</h4>
+                        <h4 class="cel-2">66°C</h4>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Friday</h3>
+                    <img src="./images/some_clouds.png" alt="clouds">
+                    <p>some clouds</p>
+                    <div class="num">
+                        <h4 class="fer-3">69°F</h4>
+                        <h4 class="cel-3">61°C</h4>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Saturday</h3>
+                    <img src="./images/some_sun.png" alt="sunny">
+                    <p>some sun</p>
+                    <div class="num">
+                        <h4 class="fer-4">78°F</h4>
+                        <h4 class="cel-4">70°C</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

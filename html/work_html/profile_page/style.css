@@ -62,6 +62,11 @@ h1{
     bottom: 170px;
     left: 25px;
 }
+#mainProfile{
+    color: blue;
+    text-decoration: underline blue;
+    cursor: pointer;
+}
 #marker{
     width: 20px;
 }
