@@ -23,7 +23,6 @@ function getOption(){
         tempCel_4.style.display = 'block';
     }
     else if(x == '°F'){
-        console.log('hello');
         tempCel.style.display = 'none';
         tempCel_2.style.display = 'none';
         tempCel_3.style.display = 'none';
