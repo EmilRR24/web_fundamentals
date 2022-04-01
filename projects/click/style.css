@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(73, 71, 71);
+    width: 1200px;
+    height: 700px;
+    border: 3px solid black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+button{
+    width: 200px;
+    height: 75px;
+    font-size: 30px;
+    position: fixed;
+    top: 350px;
+    left: 750px;
+    background-color: rgb(0, 204, 255);
+    border: 5px solid black;
+    box-shadow: 3px 3px  3px black;
+    border-radius: 25px;
+}
+#restart{
+    width: 350px;
+    height: 200px;
+    font-size: 50px;
+    top: 250px;
+    left: 650px;
+    background-color: greenyellow;
+    display: none;
+}
+
+.targetRed{
+    background-color: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 300px;
+    left: 550px;
+    display: none;
+}
+.targetRed-2{
+    background-color: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 300px;
+    left: 1089px;
+    display: none;
+}
+.targetBlue{
+    background-color: blue;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 500px;
+    left: 650px;
+    display: none;
+}
+.targetBlue-2{
+    background-color: blue;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 234px;
+    left: 535px;
+    display: none;
+}
+.targetGreen{
+    background-color: green;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 123px;
+    left: 1320px;
+    display: none;
+}
+.targetGreen-2{
+    background-color: green;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 445px;
+    left: 990px;
+    display: none;
+}
+#trapezoid-bottom {
+    border-bottom: 195px solid rgb(226, 225, 225);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    width: 1100px;
+}
+#middle {
+    border-top: 200px solid rgb(201, 201, 201);
+    width: 1100px;
+    margin: auto;
+}
+#trapezoid-top {
+    border-top: 100px solid rgba(245, 222, 179, 0.404);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    width: 1100px;
+}
+img{
+    height: 168px;
+    width: 1200px;
+}

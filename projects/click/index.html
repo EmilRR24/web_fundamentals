@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Point and Click</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Click on all the targets!</h1>
+        <!-- start game -->
+        <button onclick="game(this)" id="startGame">Start Game</button>
+        <!-- start over -->
+        <button onclick="restart(this)" id="restart">Restart</button>
+        <!-- targets -->
+        <div class="targetRed" onclick="next(this)"></div>
+        <div class="targetRed-2" onclick="next5(this)"></div>
+        <div class="targetBlue" onclick="next6(this)"></div>
+        <div class="targetBlue-2" onclick="next3(this)"></div>
+        <div class="targetGreen" onclick="next4(this)"></div>
+        <div class="targetGreen-2" onclick="next2(this)"></div>
+        <!-- shooting range -->
+        <div class="mainPage">
+            <div id="trapezoid-top"></div>
+            <div id="middle"></div>
+            <div id="trapezoid-bottom"></div>
+        </div>
+        <div class="bottom"></div>
+        <!-- wooden blocker -->
+        <img src="https://free-images.com/lg/b5cd/spruce_background_wood_lines_0.jpg" alt="wood">
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
